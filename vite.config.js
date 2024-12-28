@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/tugasredux/', // Nama repository kamu di GitHub
+  base: '/', // Root path untuk repository personal
 });

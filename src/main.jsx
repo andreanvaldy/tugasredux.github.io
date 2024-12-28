@@ -8,10 +8,11 @@ import { BrowserRouter } from 'react-router-dom';  // Import BrowserRouter
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Provider store={store}> {/* Membungkus aplikasi dengan Provider */}
-      <BrowserRouter basename="/tugasredux"> {/* Membungkus aplikasi dengan BrowserRouter */}
+    <Provider store={store}>
+      <BrowserRouter> {/* Tidak butuh basename karena path root */}
         <App />
       </BrowserRouter>
     </Provider>
   </StrictMode>
 );
+

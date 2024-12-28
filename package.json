@@ -2,7 +2,7 @@
   "name": "tugasredux",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://andreanvaldy.github.io/tugasredux/",
+  "homepage": "https://andreanvaldy.github.io/",
   "type": "module",
   "scripts": {
   "dev": "vite",
