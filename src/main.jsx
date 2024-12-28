@@ -7,8 +7,10 @@ import App from './App.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Provider store={store}> {/* Membungkus aplikasi dengan Provider */}
-      <App />
+    <Provider store={store}>
+      <BrowserRouter basename="/tugasredux"> {/* Membungkus aplikasi dengan BrowserRouter */}
+        <App />
+      </BrowserRouter>
     </Provider>
   </StrictMode>
 );
